@@ -27,7 +27,7 @@ export const Assignments = () => {
         assignmentHTML += `
             <li>
                 ${currentPet.name} is being walked by
-                ${currentPetWalker.name} in ${currentPetWalker.city}
+                ${currentPetWalker.name} in ${currentPet.city}
             </li>
         `
     }
